@@ -26,7 +26,7 @@ func Receive(ws *websocket.Conn) {
 
     if err = websocket.Message.Receive(ws, &msg); err != nil {
         fmt.Printf("Error receiving message: %s", err.Error())
-        break
+        return
     }
 
     go handle(msg, ws)

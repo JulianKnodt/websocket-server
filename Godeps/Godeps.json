@@ -1,0 +1,48 @@
+{
+	"ImportPath": "server",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/go-redis/redis",
+			"Comment": "v6.5.6-2-g7a034e1",
+			"Rev": "7a034e1609674d5eb847c3885e5058c54e79a1df"
+		},
+		{
+			"ImportPath": "github.com/go-redis/redis/internal",
+			"Comment": "v6.5.6-2-g7a034e1",
+			"Rev": "7a034e1609674d5eb847c3885e5058c54e79a1df"
+		},
+		{
+			"ImportPath": "github.com/go-redis/redis/internal/consistenthash",
+			"Comment": "v6.5.6-2-g7a034e1",
+			"Rev": "7a034e1609674d5eb847c3885e5058c54e79a1df"
+		},
+		{
+			"ImportPath": "github.com/go-redis/redis/internal/hashtag",
+			"Comment": "v6.5.6-2-g7a034e1",
+			"Rev": "7a034e1609674d5eb847c3885e5058c54e79a1df"
+		},
+		{
+			"ImportPath": "github.com/go-redis/redis/internal/pool",
+			"Comment": "v6.5.6-2-g7a034e1",
+			"Rev": "7a034e1609674d5eb847c3885e5058c54e79a1df"
+		},
+		{
+			"ImportPath": "github.com/go-redis/redis/internal/proto",
+			"Comment": "v6.5.6-2-g7a034e1",
+			"Rev": "7a034e1609674d5eb847c3885e5058c54e79a1df"
+		},
+		{
+			"ImportPath": "github.com/nu7hatch/gouuid",
+			"Rev": "179d4d0c4d8d407a32af483c2354df1d2c91e6c3"
+		},
+		{
+			"ImportPath": "golang.org/x/net/websocket",
+			"Rev": "090ebbdfc2aff44cc6674372b72e02e731f7f0ef"
+		}
+	]
+}
